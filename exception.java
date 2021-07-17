@@ -22,6 +22,7 @@ public class CobaException {
         } catch(Exception a){
             System.out.println("Error : Index yang diinputkan tidak sesuai "
                     + "dengan panjang sejumlah array");
+            System.out.println(a);
         }
    }
     
